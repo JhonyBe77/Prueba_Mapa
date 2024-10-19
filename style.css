@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.boxMapa {
+    padding: 5px;
+    border: 1px solid red;
+    margin-top: 20px;
+
+}
+
+
+#map {
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+ }
+ #map2 {
+    position: center;
+    height: 600px;
+    width: 900px;
+    margin-bottom: 20px;
+}
+
+#map3 {
+    height: 500px;
+}
+.controls {
+    margin-bottom: 10px;
+}
