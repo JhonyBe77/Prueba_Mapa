@@ -22,15 +22,16 @@ Asegúrate de tener instaladas las siguientes librerías:
 
 Abre el archivo index.html en tu navegador para visualizar el mapa.
 
-## Uso 🗺️
-Ejercicio 1 Cargar el Mapa: Al abrir el archivo index.html, se cargará un mapa centrado en una ubicación predeterminada.
-Ejercicio 2 Mostrar Terremotos: Se mostrarán los terremotos en el mapa como puntos (marcadores o círculos) en función de las coordenadas obtenidas de una API o de un conjunto de datos.
-Ejercicio 3 Filtrar Terremotos: Utiliza los controles de filtrado para seleccionar terremotos por magnitud y por fechas. Los datos se actualizarán dinámicamente en el mapa.
-Ejemplo de Código 💻
+## 🗺️ Uso 
+1. **Cargar el Mapa:** Al abrir el archivo index.html, se cargará un mapa centrado en una ubicación predeterminada.
+2. **Mostrar Terremotos:** Se mostrarán los terremotos en el mapa como puntos (marcadores o círculos) en función de las coordenadas obtenidas de una API o de un conjunto de datos.
+3. **Filtrar Terremotos:** Utiliza los controles de filtrado para seleccionar terremotos por magnitud y por fechas. Los datos se actualizarán dinámicamente en el mapa.
+
+## 💻 Ejemplo de Código 
 Aquí hay un ejemplo de cómo puedes implementar la visualización de terremotos utilizando Leaflet:
 
 javascript
-Copiar código
+```bash
 // Inicialización del mapa
 var map = L.map('map').setView([20.0, 0.0], 2);
 
